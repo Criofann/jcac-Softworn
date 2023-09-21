@@ -10,7 +10,6 @@ BEGIN
     DemployeeID int,
     ProjectID int);
 
-  #drop table demployee_project;
 
   INSERT INTO demployee_project( DemployeeID,ProjectID)
     VALUES(1,1),(1,3),(3,1),(4,9),(6,6),(5,8),(8,3),(4,7),(3,6),(6,8),(3,7),(7,8),(3,9);
