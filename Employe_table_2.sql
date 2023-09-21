@@ -15,12 +15,12 @@ NationalInsurance varchar(11));
 
 
 INSERT INTO Delivery_Employee (FirstName, LastName, Salary, BankAccount, NationalInsurance )
-VALUES ('Joseph', 'Magee', 19000 ,'87212667', '389133361'),
-('Samuel','Buyan',19000,'21785671','326504657'),('John', 'Smith', 100000, '34422315', '851248097'),
-('Joshua','Kelso',900000,'21932721','702421488'),('Harry','Potter' ,12000, '81760910','938777996'),
-('Mario','Mario',50000,'31571073', '719418187'),('Steve','Rodgers',20000,'52818372','771653448'),
-('Clark','Kent', 45000,'27701114','166336620'),('Kim-Jong','Un', 10000, '28899322','707149553'),
-('Obiwon','Kenobi',400000,'74044710','456172772');
+VALUES ('Joseph', 'Magee', 19000 ,'87212667578643', 'AD913336R'),
+('Samuel','Buyan',19000,'21785671234598','AR650465N'),('John', 'Smith', 100000, '34422315894589', 'HG124809K'),
+('Joshua','Kelso',900000,'21932721875632','KF242148H'),('Harry','Potter' ,12000, '81760910454545','YT877799U'),
+('Mario','Mario',50000,'31571073452189', 'ZX941818B'),('Steve','Rodgers',20000,'52818372454532','BG165344K'),
+('Clark','Kent', 45000,'27701114874367','XS633662U'),('Kim-Jong','Un', 10000, '28899322343434','FD714955B'),
+('Obiwon','Kenobi',400000,'74044710564354','YU617277W');
 
 Select*from Delivery_Employee;
 
