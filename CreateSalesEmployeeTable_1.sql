@@ -13,7 +13,7 @@ BEGIN
     Salary Decimal(10,2),
     BankAccount varchar(16),
     NationalInsurance varchar(11)
-	);
+		);
     
     # Insert records into the Sales_Employee table
     INSERT INTO Sale_Employee (FirstName, LastName, Salary, BankAccount, NationalInsurance)
