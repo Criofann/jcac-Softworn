@@ -1,7 +1,8 @@
 USE JCAC_CormacF;
 DELIMITER $$
-DROP PROCEDURE IF EXISTS my_client_table $$
-CREATE PROCEDURE my_client_table()
+DROP PROCEDURE IF EXISTS CreateClientTable_3 $$
+CREATE PROCEDURE CreateClientTable_3()
+
 BEGIN
     START TRANSACTION;
 
@@ -38,4 +39,4 @@ BEGIN
     END IF;
 END $$
 DELIMITER ;
-CALL my_client_table();
+CALL CreateClientTable_3();
