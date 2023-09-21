@@ -1,4 +1,4 @@
-
+USE JCAC_CormacF
 DELIMITER $$
 DROP PROCEDURE IF EXISTS CreateSalesEmployeeTable_1 $$
 CREATE PROCEDURE CreateSalesEmployeeTable_1()
